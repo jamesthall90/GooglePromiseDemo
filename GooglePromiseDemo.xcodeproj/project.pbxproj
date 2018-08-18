@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1D21209B7A001B27E4 /* Kingfisher.framework */; };
+		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
+		72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DDF211E544900DB559E /* FBLPromises.framework */; };
+		72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DE1211E544E00DB559E /* Promises.framework */; };
+		72A00DE5211E592100DB559E /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 72A00DE4211E592100DB559E /* Utilities */; };
 		72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEA500211A76A200340AA2 /* AppDelegate.swift */; };
-		72CEA503211A76A200340AA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEA502211A76A200340AA2 /* ViewController.swift */; };
 		72CEA506211A76A200340AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA504211A76A200340AA2 /* Main.storyboard */; };
 		72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA507211A76A300340AA2 /* Assets.xcassets */; };
 		72CEA50B211A76A300340AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA509211A76A300340AA2 /* LaunchScreen.storyboard */; };
+		72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723C2C1D21209B7A001B27E4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		723C2C222121F42D001B27E4 /* SwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwansonViewController.swift; sourceTree = "<group>"; };
+		72A00DDF211E544900DB559E /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
+		72A00DE1211E544E00DB559E /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
+		72A00DE4211E592100DB559E /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
 		72CEA4FD211A76A200340AA2 /* GooglePromiseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePromiseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CEA500211A76A200340AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72CEA502211A76A200340AA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72CEA505211A76A200340AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72CEA507211A76A300340AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CEA50A211A76A300340AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CEA50C211A76A300340AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonSwansonServiceClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */,
+				72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */,
+				723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7229480321251D2600A28F8A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				72CEA504211A76A200340AA2 /* Main.storyboard */,
+				72CEA509211A76A300340AA2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		723C2C1F2121F32C001B27E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				723C2C222121F42D001B27E4 /* SwansonViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		72A00DDE211E544900DB559E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				723C2C1D21209B7A001B27E4 /* Kingfisher.framework */,
+				72A00DE1211E544E00DB559E /* Promises.framework */,
+				72A00DDF211E544900DB559E /* FBLPromises.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A00DE6211E592F00DB559E /* ServiceClients */ = {
+			isa = PBXGroup;
+			children = (
+				72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */,
+			);
+			path = ServiceClients;
+			sourceTree = "<group>";
+		};
 		72CEA4F4211A76A200340AA2 = {
 			isa = PBXGroup;
 			children = (
 				72CEA4FF211A76A200340AA2 /* GooglePromiseDemo */,
 				72CEA4FE211A76A200340AA2 /* Products */,
+				72A00DDE211E544900DB559E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +103,13 @@
 		72CEA4FF211A76A200340AA2 /* GooglePromiseDemo */ = {
 			isa = PBXGroup;
 			children = (
-				72CEA500211A76A200340AA2 /* AppDelegate.swift */,
-				72CEA502211A76A200340AA2 /* ViewController.swift */,
-				72CEA504211A76A200340AA2 /* Main.storyboard */,
+				7229480321251D2600A28F8A /* Storyboards */,
+				723C2C1F2121F32C001B27E4 /* ViewControllers */,
+				72A00DE6211E592F00DB559E /* ServiceClients */,
 				72CEA507211A76A300340AA2 /* Assets.xcassets */,
-				72CEA509211A76A300340AA2 /* LaunchScreen.storyboard */,
+				72CEA500211A76A200340AA2 /* AppDelegate.swift */,
 				72CEA50C211A76A300340AA2 /* Info.plist */,
+				72A00DE4211E592100DB559E /* Utilities */,
 			);
 			path = GooglePromiseDemo;
 			sourceTree = "<group>";
@@ -74,6 +124,7 @@
 				72CEA4F9211A76A200340AA2 /* Sources */,
 				72CEA4FA211A76A200340AA2 /* Frameworks */,
 				72CEA4FB211A76A200340AA2 /* Resources */,
+				72A00DE3211E554100DB559E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CEA50B211A76A300340AA2 /* LaunchScreen.storyboard in Resources */,
+				72A00DE5211E592100DB559E /* Utilities in Resources */,
 				72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */,
 				72CEA506211A76A200340AA2 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +182,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72A00DE3211E554100DB559E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Promises.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBLPromises.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72CEA4F9211A76A200340AA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CEA503211A76A200340AA2 /* ViewController.swift in Sources */,
+				72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */,
+				723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */,
 				72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +354,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47S98234JZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GooglePromiseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +376,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47S98234JZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GooglePromiseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
