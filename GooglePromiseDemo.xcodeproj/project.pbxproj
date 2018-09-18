@@ -42,7 +42,6 @@
 		72789373214B423C00D46E1C /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
 		72789375214B426200D46E1C /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
 		72789377214B42B800D46E1C /* SwansonReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwansonReducer.swift; sourceTree = "<group>"; };
-		7278937B214B55DA00D46E1C /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		72A00DDF211E544900DB559E /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
 		72A00DE1211E544E00DB559E /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
 		72A00DE4211E592100DB559E /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
@@ -116,22 +115,6 @@
 			path = State;
 			sourceTree = "<group>";
 		};
-		72789379214B55DA00D46E1C /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7278937A214B55DA00D46E1C /* UIKit */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7278937A214B55DA00D46E1C /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				7278937B214B55DA00D46E1C /* UIImageExtensions.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 		7278937C2150883700D46E1C /* Middleware */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */,
-				72789379214B55DA00D46E1C /* Extensions */,
 			);
 			path = ServiceClients;
 			sourceTree = "<group>";

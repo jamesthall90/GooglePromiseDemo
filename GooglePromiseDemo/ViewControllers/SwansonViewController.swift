@@ -21,33 +21,25 @@ class SwansonViewController: UIViewController {
         
         swansonClient = RonSwansonServiceClient()
         
-        formatButton(button: swanSon)
+        swanSon?.addShadow()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        // Subscibe the VC to the Store / Swanson State
         store.subscribe(self) {
             $0.select {
                 $0.swansonState
             }
         }
-        
-        store.dispatch(RoutingAction(destination: .swanson))
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        store.unsubscribe(self)
-    }
-
-    fileprivate func formatButton (button: UIButton!) {
         
-        // Adjust button shadow
-        button.layer.shadowColor = UIColor.black.cgColor
-        button.layer.shadowOffset = CGSize(width: 5, height: 5)
-        button.layer.shadowRadius = 5
-        button.layer.shadowOpacity = 1.0
+        // Unsubscribe the VC from the Store / Swanson State upon disappearance
+        store.unsubscribe(self)
     }
     
     
@@ -56,7 +48,7 @@ class SwansonViewController: UIViewController {
     /// button background image, respectively
     fileprivate func generateNewSwansonQuoteWithImage() {
         
-        self.swansonClient?.getSingleSwasonQuote().then { quote in
+        RonSwansonServiceClient.getSingleSwasonQuote().then { quote in
 
             self.quoteTextView?.text = "\"\(quote)\""
 
@@ -69,7 +61,7 @@ class SwansonViewController: UIViewController {
     /// button background image, respectively with a transition between images
     fileprivate func generateNewSwansonQuoteWithImageAndTransition() {
 
-        self.swansonClient?.getSingleSwasonQuote().then { quote in
+        RonSwansonServiceClient.getSingleSwasonQuote().then { quote in
             
             self.quoteTextView?.text = "\"\(quote)\""
             
@@ -79,6 +71,7 @@ class SwansonViewController: UIViewController {
     
     @IBAction func swansonButtonTapped(_ sender: Any) {
        
+        // Should probably call some sort of middleware to handle Promise
         store.dispatch(GetSingleSwansonQuoteAction())
     }
 }
@@ -89,7 +82,7 @@ extension SwansonViewController: StoreSubscriber {
         
         self.quoteTextView?.text = "\"\(state.quoteText ?? "")\""
         
-        self.swanSon?.setImage(state.swansonImage, for: .normal)
+        self.swanSon?.setSwansonImageWithTransition(swansonImage: state.swansonImage)
     }
 }
 
