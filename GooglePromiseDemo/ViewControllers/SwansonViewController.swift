@@ -8,6 +8,7 @@
 
 import UIKit
 import Promises
+import ReSwift
 
 class SwansonViewController: UIViewController {
 
@@ -21,8 +22,23 @@ class SwansonViewController: UIViewController {
         swansonClient = RonSwansonServiceClient()
         
         formatButton(button: swanSon)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
-        generateNewSwansonQuoteWithImage()
+        store.subscribe(self) {
+            $0.select {
+                $0.swansonState
+            }
+        }
+        
+        store.dispatch(RoutingAction(destination: .swanson))
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        store.unsubscribe(self)
     }
 
     fileprivate func formatButton (button: UIButton!) {
@@ -63,7 +79,17 @@ class SwansonViewController: UIViewController {
     
     @IBAction func swansonButtonTapped(_ sender: Any) {
        
-        generateNewSwansonQuoteWithImageAndTransition()
+        store.dispatch(GetSingleSwansonQuoteAction())
+    }
+}
+
+// MARK: - StoreSubscriber
+extension SwansonViewController: StoreSubscriber {
+    func newState(state: SwansonState) {
+        
+        self.quoteTextView?.text = "\"\(state.quoteText ?? "")\""
+        
+        self.swanSon?.setImage(state.swansonImage, for: .normal)
     }
 }
 

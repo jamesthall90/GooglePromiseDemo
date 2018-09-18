@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1D21209B7A001B27E4 /* Kingfisher.framework */; };
 		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
+		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
+		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
+		7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */; };
+		7278936C214B387200D46E1C /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278936B214B387200D46E1C /* AppReducer.swift */; };
+		7278936E214B3B9E00D46E1C /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278936D214B3B9E00D46E1C /* AppRouter.swift */; };
+		72789370214B3C5A00D46E1C /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7278936F214B3C5A00D46E1C /* RoutingState.swift */; };
+		72789372214B3D7100D46E1C /* SwansonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789371214B3D7100D46E1C /* SwansonState.swift */; };
+		72789374214B423C00D46E1C /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789373214B423C00D46E1C /* RoutingReducer.swift */; };
+		72789376214B426200D46E1C /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789375214B426200D46E1C /* RoutingAction.swift */; };
+		72789378214B42B800D46E1C /* SwansonReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789377214B42B800D46E1C /* SwansonReducer.swift */; };
 		72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DDF211E544900DB559E /* FBLPromises.framework */; };
 		72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DE1211E544E00DB559E /* Promises.framework */; };
 		72A00DE5211E592100DB559E /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 72A00DE4211E592100DB559E /* Utilities */; };
@@ -22,6 +32,17 @@
 /* Begin PBXFileReference section */
 		723C2C1D21209B7A001B27E4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		723C2C222121F42D001B27E4 /* SwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwansonViewController.swift; sourceTree = "<group>"; };
+		72789362214B340200D46E1C /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		72789367214B356500D46E1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSingleSwansonQuoteAction.swift; sourceTree = "<group>"; };
+		7278936B214B387200D46E1C /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		7278936D214B3B9E00D46E1C /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		7278936F214B3C5A00D46E1C /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		72789371214B3D7100D46E1C /* SwansonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwansonState.swift; sourceTree = "<group>"; };
+		72789373214B423C00D46E1C /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		72789375214B426200D46E1C /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		72789377214B42B800D46E1C /* SwansonReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwansonReducer.swift; sourceTree = "<group>"; };
+		7278937B214B55DA00D46E1C /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		72A00DDF211E544900DB559E /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
 		72A00DE1211E544E00DB559E /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
 		72A00DE4211E592100DB559E /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
@@ -39,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72789363214B340200D46E1C /* ReSwift.framework in Frameworks */,
 				72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */,
 				72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */,
 				723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */,
@@ -65,9 +87,62 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		72789364214B349B00D46E1C /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				7278936B214B387200D46E1C /* AppReducer.swift */,
+				72789373214B423C00D46E1C /* RoutingReducer.swift */,
+				72789377214B42B800D46E1C /* SwansonReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		72789365214B34A100D46E1C /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */,
+				72789375214B426200D46E1C /* RoutingAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		72789366214B34EC00D46E1C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				72789367214B356500D46E1C /* AppState.swift */,
+				7278936F214B3C5A00D46E1C /* RoutingState.swift */,
+				72789371214B3D7100D46E1C /* SwansonState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		72789379214B55DA00D46E1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7278937A214B55DA00D46E1C /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7278937A214B55DA00D46E1C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7278937B214B55DA00D46E1C /* UIImageExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7278937C2150883700D46E1C /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
 		72A00DDE211E544900DB559E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72789362214B340200D46E1C /* ReSwift.framework */,
 				723C2C1D21209B7A001B27E4 /* Kingfisher.framework */,
 				72A00DE1211E544E00DB559E /* Promises.framework */,
 				72A00DDF211E544900DB559E /* FBLPromises.framework */,
@@ -79,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */,
+				72789379214B55DA00D46E1C /* Extensions */,
 			);
 			path = ServiceClients;
 			sourceTree = "<group>";
@@ -103,10 +179,15 @@
 		72CEA4FF211A76A200340AA2 /* GooglePromiseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7278937C2150883700D46E1C /* Middleware */,
+				72789366214B34EC00D46E1C /* State */,
+				72789365214B34A100D46E1C /* Actions */,
+				72789364214B349B00D46E1C /* Reducers */,
 				7229480321251D2600A28F8A /* Storyboards */,
 				723C2C1F2121F32C001B27E4 /* ViewControllers */,
 				72A00DE6211E592F00DB559E /* ServiceClients */,
 				72CEA507211A76A300340AA2 /* Assets.xcassets */,
+				7278936D214B3B9E00D46E1C /* AppRouter.swift */,
 				72CEA500211A76A200340AA2 /* AppDelegate.swift */,
 				72CEA50C211A76A300340AA2 /* Info.plist */,
 				72A00DE4211E592100DB559E /* Utilities */,
@@ -192,6 +273,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Promises.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBLPromises.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
 			);
 			outputPaths = (
 			);
@@ -206,9 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72789376214B426200D46E1C /* RoutingAction.swift in Sources */,
+				7278936C214B387200D46E1C /* AppReducer.swift in Sources */,
 				72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */,
 				723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */,
 				72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */,
+				7278936E214B3B9E00D46E1C /* AppRouter.swift in Sources */,
+				72789368214B356500D46E1C /* AppState.swift in Sources */,
+				72789372214B3D7100D46E1C /* SwansonState.swift in Sources */,
+				72789370214B3C5A00D46E1C /* RoutingState.swift in Sources */,
+				7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */,
+				72789378214B42B800D46E1C /* SwansonReducer.swift in Sources */,
+				72789374214B423C00D46E1C /* RoutingReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
