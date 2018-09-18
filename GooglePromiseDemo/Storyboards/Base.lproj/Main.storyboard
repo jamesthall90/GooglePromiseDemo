@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XQw-Dc-2N8">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="XQw-Dc-2N8">
                                 <rect key="frame" x="63" y="82" width="240" height="605"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uni-cs-fVw">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="361"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="363"/>
                                         <state key="normal" backgroundImage="ron-swanson-1"/>
                                         <connections>
                                             <action selector="swansonButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xO9-0l-yyx"/>
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBS-LW-FgL">
-                                        <rect key="frame" x="0.0" y="361" width="240" height="244"/>
+                                        <rect key="frame" x="0.0" y="369" width="240" height="236"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <attributedString key="attributedText">
                                             <fragment content="&quot;What the f*ck is a German muffin?!?&quot;">

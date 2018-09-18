@@ -15,12 +15,19 @@ func swansonReducer(action: Action, state: SwansonState?) -> SwansonState {
     
     switch(action) {
         
-    case _ as GetSingleSwansonQuoteAction:
-            state = SwansonState(quoteText: "You had me at meat tornado.", swansonImage: UIImage(named: "ron-swanson-2"))
-        
+    case let action as GetSingleSwansonQuoteAction:
+            state = setSingleQuoteAndImage(action: action, state: state)
     default:
         break
     }
     
+    return state
+}
+
+func setSingleQuoteAndImage(action: GetSingleSwansonQuoteAction, state: SwansonState) -> SwansonState {
+    
+    var state = state
+    state.swansonImage = action.swansonImage
+    state.quoteText = action.swansonQuote
     return state
 }

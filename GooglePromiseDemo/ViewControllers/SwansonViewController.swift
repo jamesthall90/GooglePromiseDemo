@@ -7,21 +7,19 @@
 //
 
 import UIKit
-import Promises
 import ReSwift
 
 class SwansonViewController: UIViewController {
 
     @IBOutlet weak var swanSon: UIButton?
     @IBOutlet weak var quoteTextView: UITextView?
-    var swansonClient: RonSwansonServiceClient?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        swansonClient = RonSwansonServiceClient()
-        
         swanSon?.addShadow()
+        
+        getSingleQuoteThunk()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,37 +40,11 @@ class SwansonViewController: UIViewController {
         store.unsubscribe(self)
     }
     
-    
-    /// Generates a new Ron Swanson quote & image
-    /// and assigns them to a text view and
-    /// button background image, respectively
-    fileprivate func generateNewSwansonQuoteWithImage() {
-        
-        RonSwansonServiceClient.getSingleSwasonQuote().then { quote in
-
-            self.quoteTextView?.text = "\"\(quote)\""
-
-            self.swanSon?.getSingleSwansonImage()
-        }
-    }
-    
-    /// Generates a new Ron Swanson quote & image
-    /// and assigns them to a text view and
-    /// button background image, respectively with a transition between images
-    fileprivate func generateNewSwansonQuoteWithImageAndTransition() {
-
-        RonSwansonServiceClient.getSingleSwasonQuote().then { quote in
-            
-            self.quoteTextView?.text = "\"\(quote)\""
-            
-            self.swanSon?.getSingleSwansonImageWithTransition()
-        }
-    }
-    
     @IBAction func swansonButtonTapped(_ sender: Any) {
-       
-        // Should probably call some sort of middleware to handle Promise
-        store.dispatch(GetSingleSwansonQuoteAction())
+        
+        // Calls a thunk which gets a Swanson quote and image,
+        // and then dispatches the appropriate action
+        getSingleQuoteThunk()
     }
 }
 

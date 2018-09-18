@@ -118,8 +118,13 @@ extension UIImage {
         case swanson3 = "ron-swanson-3"
         case swanson4 = "ron-swanson-4"
         case swanson5 = "ron-swanson-5"
+        case swanson6 = "ron-swanson-6"
+        case swanson7 = "ron-swanson-7"
+        case swanson8 = "ron-swanson-8"
+        case swanson9 = "ron-swanson-9"
         
-        static let values = [#imageLiteral(resourceName: "ron-swanson-1"), #imageLiteral(resourceName: "ron-swanson-2"), #imageLiteral(resourceName: "ron-swanson-3"), #imageLiteral(resourceName: "ron-swanson-4"), #imageLiteral(resourceName: "ron-swanson-5")]
+        
+        static let values = [#imageLiteral(resourceName: "ron-swanson-1"), #imageLiteral(resourceName: "ron-swanson-2"), #imageLiteral(resourceName: "ron-swanson-3"), #imageLiteral(resourceName: "ron-swanson-4"), #imageLiteral(resourceName: "ron-swanson-5"), #imageLiteral(resourceName: "ron-swanson-6"), #imageLiteral(resourceName: "ron-swanson-7"), #imageLiteral(resourceName: "ron-swanson-8"), #imageLiteral(resourceName: "ron-swanson-9")]
     }
     
     // Returns a pseudo-random SwansonImage enum value
@@ -129,7 +134,11 @@ extension UIImage {
                                              .swanson2,
                                              .swanson3,
                                              .swanson4,
-                                             .swanson5]
+                                             .swanson5,
+                                             .swanson6,
+                                             .swanson7,
+                                             .swanson8,
+                                             .swanson9]
         
         let randomIndex = Int(arc4random()) % swansonImages.count
         
@@ -143,29 +152,6 @@ extension UIImage {
 
 //MARK: - UIView Extensions
 extension UIView {
-    
-    func fadeInPromise() -> Promise<Bool> {
-        return wrap { handler in
-            self.fadeIn(completion: handler)
-        }
-    }
-    
-    func fadeOutPromise() -> Promise<Bool> {
-        return wrap { handler in
-            self.fadeOut(completion: handler)
-        }
-    }
-    
-    func fadeIn(_ duration: TimeInterval = 2.0, delay: TimeInterval = 0.0, completion: @escaping ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
-        UIView.animate(withDuration: duration, delay: delay, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            self.alpha = 1.0
-        }, completion: completion)  }
-    
-    func fadeOut(_ duration: TimeInterval = 2.0, delay: TimeInterval = 0.0, completion: @escaping (Bool) -> Void = {(finished: Bool) -> Void in}) {
-        UIView.animate(withDuration: duration, delay: delay, options: UIViewAnimationOptions.curveEaseIn, animations: {
-            self.alpha = 0.0
-        }, completion: completion)
-    }
     
     func dropShadow(scale: Bool = true) {
         layer.masksToBounds = false
