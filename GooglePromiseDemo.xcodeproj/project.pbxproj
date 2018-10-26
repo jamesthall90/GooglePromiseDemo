@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1D21209B7A001B27E4 /* Kingfisher.framework */; };
 		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
 		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
 		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		723C2C1D21209B7A001B27E4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		723C2C222121F42D001B27E4 /* SwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwansonViewController.swift; sourceTree = "<group>"; };
 		72789362214B340200D46E1C /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		72789367214B356500D46E1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				72789363214B340200D46E1C /* ReSwift.framework in Frameworks */,
 				72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */,
 				72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */,
-				723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				72789362214B340200D46E1C /* ReSwift.framework */,
-				723C2C1D21209B7A001B27E4 /* Kingfisher.framework */,
 				72A00DE1211E544E00DB559E /* Promises.framework */,
 				72A00DDF211E544900DB559E /* FBLPromises.framework */,
 			);
