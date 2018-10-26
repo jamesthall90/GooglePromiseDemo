@@ -1,13 +1,43 @@
 {
+  "Mac" : [
+    {
+      "name" : "FBLPromises",
+      "hash" : "0608bc003f27fa9181cec4b370edbf93fab924821656bd35dc25e51bac2238db"
+    },
+    {
+      "name" : "Promises",
+      "hash" : "a58613d3cf460989a5ea8600ec45ddac5c1084e67591935d3a9d27469b6f6a9c"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "FBLPromises",
+      "hash" : "6e300ed3e0b4e99b75e0ed3349c2a11e2d2815318c0e79116b616cd60ca28ff5"
+    },
+    {
+      "name" : "Promises",
+      "hash" : "d29af78da6ee930e5fd9745ba86cd51b0c37f8049a36bb65a2bad21727218135"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "FBLPromises",
+      "hash" : "23a1ee602ad0ecea45c7dacf523bc766c4d44dc2ec8c5136cac421e324d9322e"
+    },
+    {
+      "name" : "Promises",
+      "hash" : "aab6b5d1b3c2e761cac9828db19c0e2e88b8c8604018fb503596d83a69c24317"
+    }
+  ],
   "commitish" : "1.2.3",
   "iOS" : [
     {
-      "name" : "Promises",
-      "hash" : "45299a75f0d68dcb481312efcdb62bfe2c865a88396ce22d2d72813862671d28"
+      "name" : "FBLPromises",
+      "hash" : "2a6338b5a7d4014efb1baf55d22af7e672ad8aa7f521dbdf7b784015eda01961"
     },
     {
-      "name" : "FBLPromises",
-      "hash" : "362a7d9c55563a3331fc8a95a2a1c6eaa83194959bd777b579df82c3eb6856f7"
+      "name" : "Promises",
+      "hash" : "9902fba3190a481adb0a513e383b4588ed6c8a786502ae370eeeb7ecda8ae63f"
     }
   ]
 }

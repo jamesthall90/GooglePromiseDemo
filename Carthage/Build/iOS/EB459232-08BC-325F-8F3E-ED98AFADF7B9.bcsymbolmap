@@ -1,0 +1,789 @@
+BCSymbolMap Version: 2.0
+-[FBLPromise(TimeoutAdditions) timeout:]
+-[FBLPromise(TimeoutAdditions) onQueue:timeout:]
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.23
+___copy_helper_block_.26
+___destroy_helper_block_.27
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.32
+___copy_helper_block_.36
+___destroy_helper_block_.37
+-[FBLPromise(DotSyntax_TimeoutAdditions) timeout]
+___49-[FBLPromise(DotSyntax_TimeoutAdditions) timeout]_block_invoke
+___copy_helper_block_.43
+___destroy_helper_block_.44
+-[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]
+___51-[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]_block_invoke
+___copy_helper_block_.47
+___destroy_helper_block_.48
+___block_descriptor_tmp
+___block_descriptor_tmp.29
+___block_descriptor_tmp.39
+___block_descriptor_tmp.46
+___block_descriptor_tmp.50
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Timeout.m
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises
+__destroy_helper_block_
+__copy_helper_block_
+__51-[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]_block_invoke
+__49-[FBLPromise(DotSyntax_TimeoutAdditions) timeout]_block_invoke
+__48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.32
+__48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.23
+__48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke
+-[FBLPromise(ThenAdditions) then:]
+-[FBLPromise(ThenAdditions) onQueue:then:]
+-[FBLPromise(DotSyntax_ThenAdditions) then]
+___43-[FBLPromise(DotSyntax_ThenAdditions) then]_block_invoke
+-[FBLPromise(DotSyntax_ThenAdditions) thenOn]
+___45-[FBLPromise(DotSyntax_ThenAdditions) thenOn]_block_invoke
+___copy_helper_block_.24
+___destroy_helper_block_.25
+___block_descriptor_tmp.27
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Then.m
+__45-[FBLPromise(DotSyntax_ThenAdditions) thenOn]_block_invoke
+__43-[FBLPromise(DotSyntax_ThenAdditions) then]_block_invoke
+-[FBLPromise(CatchAdditions) catch:]
+-[FBLPromise(CatchAdditions) onQueue:catch:]
+___44-[FBLPromise(CatchAdditions) onQueue:catch:]_block_invoke
+-[FBLPromise(DotSyntax_CatchAdditions) catch]
+___45-[FBLPromise(DotSyntax_CatchAdditions) catch]_block_invoke
+-[FBLPromise(DotSyntax_CatchAdditions) catchOn]
+___47-[FBLPromise(DotSyntax_CatchAdditions) catchOn]_block_invoke
+___copy_helper_block_.28
+___destroy_helper_block_.29
+___block_descriptor_tmp.31
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Catch.m
+__47-[FBLPromise(DotSyntax_CatchAdditions) catchOn]_block_invoke
+__45-[FBLPromise(DotSyntax_CatchAdditions) catch]_block_invoke
+__44-[FBLPromise(CatchAdditions) onQueue:catch:]_block_invoke
++[FBLPromise(TestingAdditions) dispatchGroup]
+___45+[FBLPromise(TestingAdditions) dispatchGroup]_block_invoke
+_dispatchGroup.gDispatchGroup
+_dispatchGroup.onceToken
+___block_literal_global
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Testing.m
+__45+[FBLPromise(TestingAdditions) dispatchGroup]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/dispatch/once.h
+FBLWaitForPromisesWithTimeout
+-[FBLPromise(ReduceAdditions) reduce:combine:]
+-[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]
+___54-[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]_block_invoke
+-[FBLPromise(DotSyntax_ReduceAdditions) reduce]
+___47-[FBLPromise(DotSyntax_ReduceAdditions) reduce]_block_invoke
+-[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]
+___49-[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]_block_invoke
+___copy_helper_block_.32
+___destroy_helper_block_.33
+___block_descriptor_tmp.35
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Reduce.m
+__49-[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]_block_invoke
+__47-[FBLPromise(DotSyntax_ReduceAdditions) reduce]_block_invoke
+__54-[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]_block_invoke
+___FBLPromiseAwait_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___FBLPromiseAwait_block_invoke.4
+___FBLPromiseAwait_block_invoke.7
+___copy_helper_block_.8
+___destroy_helper_block_.9
+_FBLPromiseAwait.onceToken
+_FBLPromiseAwait.queue
+___block_descriptor_tmp.6
+___block_descriptor_tmp.11
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Await.m
+__FBLPromiseAwait_block_invoke.7
+__FBLPromiseAwait_block_invoke.4
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__FBLPromiseAwait_block_invoke
+FBLPromiseAwait
+-[FBLPromise(DelayAdditions) delay:]
+-[FBLPromise(DelayAdditions) onQueue:delay:]
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke_2
+___copy_helper_block_.23
+___destroy_helper_block_.24
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke.27
+___copy_helper_block_.30
+___destroy_helper_block_.31
+-[FBLPromise(DotSyntax_DelayAdditions) delay]
+___45-[FBLPromise(DotSyntax_DelayAdditions) delay]_block_invoke
+___copy_helper_block_.39
+___destroy_helper_block_.40
+-[FBLPromise(DotSyntax_DelayAdditions) delayOn]
+___47-[FBLPromise(DotSyntax_DelayAdditions) delayOn]_block_invoke
+___block_descriptor_tmp.26
+___block_descriptor_tmp.33
+___block_descriptor_tmp.42
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Delay.m
+__47-[FBLPromise(DotSyntax_DelayAdditions) delayOn]_block_invoke
+__45-[FBLPromise(DotSyntax_DelayAdditions) delay]_block_invoke
+__44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke.27
+__44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke_2
+__44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke
++[FBLPromise(AllAdditions) all:]
++[FBLPromise(AllAdditions) onQueue:all:]
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke_2
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke.47
+___copy_helper_block_.48
+___destroy_helper_block_.49
+___copy_helper_block_.54
+___destroy_helper_block_.55
++[FBLPromise(DotSyntax_AllAdditions) all]
+___41+[FBLPromise(DotSyntax_AllAdditions) all]_block_invoke
+___copy_helper_block_.64
+___destroy_helper_block_.65
++[FBLPromise(DotSyntax_AllAdditions) allOn]
+___43+[FBLPromise(DotSyntax_AllAdditions) allOn]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+___block_descriptor_tmp.51
+___block_descriptor_tmp.57
+___block_descriptor_tmp.68
+___block_descriptor_tmp.73
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+All.m
+__43+[FBLPromise(DotSyntax_AllAdditions) allOn]_block_invoke
+__41+[FBLPromise(DotSyntax_AllAdditions) all]_block_invoke
+__40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke.47
+__40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke_2
+__40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke
++[FBLPromise(AsyncAdditions) async:]
++[FBLPromise(AsyncAdditions) onQueue:async:]
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_2
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_3
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.31
+___copy_helper_block_.34
+___destroy_helper_block_.35
+___copy_helper_block_.40
+___destroy_helper_block_.41
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.43
+___copy_helper_block_.44
+___destroy_helper_block_.45
++[FBLPromise(DotSyntax_AsyncAdditions) async]
+___45+[FBLPromise(DotSyntax_AsyncAdditions) async]_block_invoke
++[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]
+___47+[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]_block_invoke
+___copy_helper_block_.59
+___destroy_helper_block_.60
+___block_descriptor_tmp.37
+___block_descriptor_tmp.58
+___block_descriptor_tmp.63
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Async.m
+__47+[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]_block_invoke
+__45+[FBLPromise(DotSyntax_AsyncAdditions) async]_block_invoke
+__44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.43
+__44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.31
+__44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_3
+__44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_2
+__44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke
+-[FBLPromise(RecoverAdditions) recover:]
+-[FBLPromise(RecoverAdditions) onQueue:recover:]
+___48-[FBLPromise(RecoverAdditions) onQueue:recover:]_block_invoke
+-[FBLPromise(DotSyntax_RecoverAdditions) recover]
+___49-[FBLPromise(DotSyntax_RecoverAdditions) recover]_block_invoke
+-[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]
+___51-[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]_block_invoke
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Recover.m
+__51-[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]_block_invoke
+__49-[FBLPromise(DotSyntax_RecoverAdditions) recover]_block_invoke
+__48-[FBLPromise(RecoverAdditions) onQueue:recover:]_block_invoke
++[FBLPromise(WrapAdditions) wrapCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]
+___52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke
+___52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke_2
+___copy_helper_block_.18
+___destroy_helper_block_.19
++[FBLPromise(WrapAdditions) wrapObjectCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]
+___58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke
+___58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]
+___57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke
+___57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke_2
+___copy_helper_block_.35
+___destroy_helper_block_.36
++[FBLPromise(WrapAdditions) wrapObjectOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapErrorOrObjectCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke_2
+___copy_helper_block_.53
+___destroy_helper_block_.54
+___copy_helper_block_.57
+___destroy_helper_block_.58
++[FBLPromise(WrapAdditions) wrap2ObjectsOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]
+___67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke
+___67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke_2
+___copy_helper_block_.65
+___destroy_helper_block_.66
++[FBLPromise(WrapAdditions) wrapBoolCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]
+___56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke
+___56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke_2
+___copy_helper_block_.77
+___destroy_helper_block_.78
+___copy_helper_block_.81
+___destroy_helper_block_.82
++[FBLPromise(WrapAdditions) wrapBoolOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]
+___63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke
+___63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke_2
+___copy_helper_block_.86
+___destroy_helper_block_.87
+___copy_helper_block_.90
+___destroy_helper_block_.91
++[FBLPromise(WrapAdditions) wrapIntegerCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]
+___59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke
+___59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke_2
+___copy_helper_block_.97
+___destroy_helper_block_.98
+___copy_helper_block_.101
+___destroy_helper_block_.102
++[FBLPromise(WrapAdditions) wrapIntegerOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]
+___66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke
+___66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke_2
+___copy_helper_block_.106
+___destroy_helper_block_.107
+___copy_helper_block_.110
+___destroy_helper_block_.111
++[FBLPromise(WrapAdditions) wrapDoubleCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]
+___58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke
+___58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke_2
+___copy_helper_block_.117
+___destroy_helper_block_.118
+___copy_helper_block_.121
+___destroy_helper_block_.122
++[FBLPromise(WrapAdditions) wrapDoubleOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke_2
+___copy_helper_block_.126
+___destroy_helper_block_.127
+___copy_helper_block_.130
+___destroy_helper_block_.131
++[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]
+___53+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]_block_invoke
+___copy_helper_block_.147
+___destroy_helper_block_.148
++[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]
+___55+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]_block_invoke
+___copy_helper_block_.152
+___destroy_helper_block_.153
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]_block_invoke
+___copy_helper_block_.158
+___destroy_helper_block_.159
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]
+___61+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]_block_invoke
+___copy_helper_block_.163
+___destroy_helper_block_.164
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]
+___58+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]_block_invoke
+___copy_helper_block_.169
+___destroy_helper_block_.170
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]
+___60+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]_block_invoke
+___copy_helper_block_.174
+___destroy_helper_block_.175
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]_block_invoke
+___copy_helper_block_.180
+___destroy_helper_block_.181
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]_block_invoke
+___copy_helper_block_.185
+___destroy_helper_block_.186
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]_block_invoke
+___copy_helper_block_.191
+___destroy_helper_block_.192
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]_block_invoke
+___copy_helper_block_.196
+___destroy_helper_block_.197
++[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]_block_invoke
+___copy_helper_block_.202
+___destroy_helper_block_.203
++[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]
+___70+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]_block_invoke
+___copy_helper_block_.207
+___destroy_helper_block_.208
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]
+___57+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]_block_invoke
+___copy_helper_block_.213
+___destroy_helper_block_.214
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]_block_invoke
+___copy_helper_block_.218
+___destroy_helper_block_.219
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]
+___64+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]_block_invoke
+___copy_helper_block_.224
+___destroy_helper_block_.225
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]_block_invoke
+___copy_helper_block_.229
+___destroy_helper_block_.230
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]
+___60+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]
+___62+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]_block_invoke
+___copy_helper_block_.240
+___destroy_helper_block_.241
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]
+___67+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]_block_invoke
+___copy_helper_block_.246
+___destroy_helper_block_.247
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]
+___69+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]_block_invoke
+___copy_helper_block_.257
+___destroy_helper_block_.258
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]
+___61+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]_block_invoke
+___copy_helper_block_.262
+___destroy_helper_block_.263
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]_block_invoke
+___copy_helper_block_.268
+___destroy_helper_block_.269
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]_block_invoke
+___copy_helper_block_.273
+___destroy_helper_block_.274
+___block_descriptor_tmp.21
+___block_descriptor_tmp.32
+___block_descriptor_tmp.38
+___block_descriptor_tmp.41
+___block_descriptor_tmp.47
+___block_descriptor_tmp.56
+___block_descriptor_tmp.59
+___block_descriptor_tmp.71
+___block_descriptor_tmp.80
+___block_descriptor_tmp.83
+___block_descriptor_tmp.89
+___block_descriptor_tmp.92
+___block_descriptor_tmp.100
+___block_descriptor_tmp.103
+___block_descriptor_tmp.109
+___block_descriptor_tmp.112
+___block_descriptor_tmp.120
+___block_descriptor_tmp.123
+___block_descriptor_tmp.129
+___block_descriptor_tmp.132
+___block_descriptor_tmp.151
+___block_descriptor_tmp.156
+___block_descriptor_tmp.162
+___block_descriptor_tmp.167
+___block_descriptor_tmp.173
+___block_descriptor_tmp.178
+___block_descriptor_tmp.184
+___block_descriptor_tmp.189
+___block_descriptor_tmp.195
+___block_descriptor_tmp.200
+___block_descriptor_tmp.206
+___block_descriptor_tmp.211
+___block_descriptor_tmp.217
+___block_descriptor_tmp.222
+___block_descriptor_tmp.228
+___block_descriptor_tmp.233
+___block_descriptor_tmp.239
+___block_descriptor_tmp.244
+___block_descriptor_tmp.250
+___block_descriptor_tmp.255
+___block_descriptor_tmp.261
+___block_descriptor_tmp.266
+___block_descriptor_tmp.272
+___block_descriptor_tmp.277
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Wrap.m
+__68+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]_block_invoke
+__66+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]_block_invoke
+__61+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]_block_invoke
+__59+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]_block_invoke
+__69+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]_block_invoke
+__67+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]_block_invoke
+__62+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]_block_invoke
+__60+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]_block_invoke
+__66+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]_block_invoke
+__64+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]_block_invoke
+__59+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]_block_invoke
+__57+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]_block_invoke
+__70+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]_block_invoke
+__68+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]_block_invoke
+__68+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]_block_invoke
+__66+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]_block_invoke
+__68+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]_block_invoke
+__66+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]_block_invoke
+__60+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]_block_invoke
+__58+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]_block_invoke
+__61+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]_block_invoke
+__59+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]_block_invoke
+__55+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]_block_invoke
+__53+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]_block_invoke
+__65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke_2
+__65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke
+__58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke_2
+__58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke
+__66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke_2
+__66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke
+__59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke_2
+__59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke
+__63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke_2
+__63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke
+__56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke_2
+__56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke
+__67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke_2
+__67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke
+__65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke_2
+__65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke
+__65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke_2
+__65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke
+__57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke_2
+__57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke
+__58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke_2
+__58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke
+__52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke_2
+__52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke
++[FBLPromise(RaceAdditions) race:]
++[FBLPromise(RaceAdditions) onQueue:race:]
+___42+[FBLPromise(RaceAdditions) onQueue:race:]_block_invoke
++[FBLPromise(DotSyntax_RaceAdditions) race]
+___43+[FBLPromise(DotSyntax_RaceAdditions) race]_block_invoke
++[FBLPromise(DotSyntax_RaceAdditions) raceOn]
+___45+[FBLPromise(DotSyntax_RaceAdditions) raceOn]_block_invoke
+___block_descriptor_tmp.44
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Race.m
+__45+[FBLPromise(DotSyntax_RaceAdditions) raceOn]_block_invoke
+__43+[FBLPromise(DotSyntax_RaceAdditions) race]_block_invoke
+__42+[FBLPromise(RaceAdditions) onQueue:race:]_block_invoke
++[FBLPromise(RetryAdditions) retry:]
++[FBLPromise(RetryAdditions) onQueue:retry:]
++[FBLPromise(RetryAdditions) attempts:retry:]
++[FBLPromise(RetryAdditions) onQueue:attempts:retry:]
++[FBLPromise(RetryAdditions) attempts:delay:condition:retry:]
++[FBLPromise(RetryAdditions) onQueue:attempts:delay:condition:retry:]
+_FBLPromiseRetryAttempt
++[FBLPromise(DotSyntax_RetryAdditions) retry]
+___45+[FBLPromise(DotSyntax_RetryAdditions) retry]_block_invoke
++[FBLPromise(DotSyntax_RetryAdditions) retryOn]
+___47+[FBLPromise(DotSyntax_RetryAdditions) retryOn]_block_invoke
+___copy_helper_block_.37
+___destroy_helper_block_.38
++[FBLPromise(DotSyntax_RetryAdditions) retryAgain]
+___50+[FBLPromise(DotSyntax_RetryAdditions) retryAgain]_block_invoke
++[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]
+___52+[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]_block_invoke
+___FBLPromiseRetryAttempt_block_invoke
+___FBLPromiseRetryAttempt_block_invoke_2
+___copy_helper_block_.66
+___destroy_helper_block_.67
+___copy_helper_block_.72
+___destroy_helper_block_.73
+___block_descriptor_tmp.52
+___block_descriptor_tmp.69
+___block_descriptor_tmp.75
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Retry.m
+__FBLPromiseRetryAttempt_block_invoke_2
+__FBLPromiseRetryAttempt_block_invoke
+__52+[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]_block_invoke
+__50+[FBLPromise(DotSyntax_RetryAdditions) retryAgain]_block_invoke
+__47+[FBLPromise(DotSyntax_RetryAdditions) retryOn]_block_invoke
+__45+[FBLPromise(DotSyntax_RetryAdditions) retry]_block_invoke
+FBLPromiseRetryAttempt
+-[FBLPromise(ValidateAdditions) validate:]
+-[FBLPromise(ValidateAdditions) onQueue:validate:]
+___50-[FBLPromise(ValidateAdditions) onQueue:validate:]_block_invoke
+-[FBLPromise(DotSyntax_ValidateAdditions) validate]
+___51-[FBLPromise(DotSyntax_ValidateAdditions) validate]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[FBLPromise(DotSyntax_ValidateAdditions) validateOn]
+___53-[FBLPromise(DotSyntax_ValidateAdditions) validateOn]_block_invoke
+___copy_helper_block_.33
+___destroy_helper_block_.34
+___block_descriptor_tmp.36
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Validate.m
+__53-[FBLPromise(DotSyntax_ValidateAdditions) validateOn]_block_invoke
+__51-[FBLPromise(DotSyntax_ValidateAdditions) validate]_block_invoke
+__50-[FBLPromise(ValidateAdditions) onQueue:validate:]_block_invoke
++[FBLPromise(DoAdditions) do:]
++[FBLPromise(DoAdditions) onQueue:do:]
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke_2
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke.31
++[FBLPromise(DotSyntax_DoAdditions) doOn]
+___41+[FBLPromise(DotSyntax_DoAdditions) doOn]_block_invoke
+___copy_helper_block_.46
+___destroy_helper_block_.47
+___block_descriptor_tmp.43
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Do.m
+__41+[FBLPromise(DotSyntax_DoAdditions) doOn]_block_invoke
+__38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke.31
+__38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke_2
+__38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke
+-[FBLPromise(AlwaysAdditions) always:]
+-[FBLPromise(AlwaysAdditions) onQueue:always:]
+___46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke
+___46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke.19
+___copy_helper_block_.20
+___destroy_helper_block_.21
+-[FBLPromise(DotSyntax_AlwaysAdditions) always]
+___47-[FBLPromise(DotSyntax_AlwaysAdditions) always]_block_invoke
+-[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]
+___49-[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]_block_invoke
+___block_descriptor_tmp.23
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Always.m
+__49-[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]_block_invoke
+__47-[FBLPromise(DotSyntax_AlwaysAdditions) always]_block_invoke
+__46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke.19
+__46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromiseError.m
++[FBLPromise(AnyAdditions) any:]
++[FBLPromise(AnyAdditions) onQueue:any:]
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke_2
+_FBLPromiseCombineValuesAndErrors
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke.40
+___copy_helper_block_.49
+___destroy_helper_block_.50
++[FBLPromise(DotSyntax_AnyAdditions) any]
+___41+[FBLPromise(DotSyntax_AnyAdditions) any]_block_invoke
++[FBLPromise(DotSyntax_AnyAdditions) anyOn]
+___43+[FBLPromise(DotSyntax_AnyAdditions) anyOn]_block_invoke
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise+Any.m
+__43+[FBLPromise(DotSyntax_AnyAdditions) anyOn]_block_invoke
+__41+[FBLPromise(DotSyntax_AnyAdditions) any]_block_invoke
+__40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke.40
+FBLPromiseCombineValuesAndErrors
+__40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke_2
+__40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke
++[FBLPromise initialize]
++[FBLPromise defaultDispatchQueue]
++[FBLPromise setDefaultDispatchQueue:]
++[FBLPromise pendingPromise]
++[FBLPromise resolvedWith:]
+-[FBLPromise fulfill:]
+-[FBLPromise reject:]
+-[FBLPromise description]
+-[FBLPromise initPending]
+-[FBLPromise initWithResolution:]
+-[FBLPromise dealloc]
+-[FBLPromise isPending]
+-[FBLPromise isFulfilled]
+-[FBLPromise isRejected]
+-[FBLPromise value]
+-[FBLPromise error]
+-[FBLPromise pendingObjects]
+-[FBLPromise observeOnQueue:fulfill:reject:]
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke_2
+___copy_helper_block_.58
+___destroy_helper_block_.59
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.64
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.68
+-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke_2
+___copy_helper_block_.74
+___destroy_helper_block_.75
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.78
+___copy_helper_block_.79
+___destroy_helper_block_.80
+___copy_helper_block_.85
+___destroy_helper_block_.86
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.88
+___copy_helper_block_.89
+___destroy_helper_block_.90
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.92
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[FBLPromise .cxx_destruct]
++[FBLPromise(DotSyntaxAdditions) resolved]
+___42+[FBLPromise(DotSyntaxAdditions) resolved]_block_invoke
+___copy_helper_block_.124
+___destroy_helper_block_.125
+_gFBLPromiseDefaultDispatchQueue
+_OBJC_IVAR_$_FBLPromise._state
+_OBJC_IVAR_$_FBLPromise._value
+_OBJC_IVAR_$_FBLPromise._pendingObjects
+_OBJC_IVAR_$_FBLPromise._observers
+_OBJC_IVAR_$_FBLPromise._error
+___block_descriptor_tmp.61
+___block_descriptor_tmp.67
+___block_descriptor_tmp.77
+___block_descriptor_tmp.82
+___block_descriptor_tmp.87
+___block_descriptor_tmp.91
+___block_descriptor_tmp.95
+___block_descriptor_tmp.128
+/Users/t.hall/RonSwansonQuoteGenerator/Carthage/Checkouts/promises/Sources/FBLPromises/FBLPromise.m
+__42+[FBLPromise(DotSyntaxAdditions) resolved]_block_invoke
+__56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.92
+__56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.88
+__56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.78
+__56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke_2
+__56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke
+__44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.68
+__44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.64
+__44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke_2
+__44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=351.8
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
