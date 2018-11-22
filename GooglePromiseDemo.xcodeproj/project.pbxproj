@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1D21209B7A001B27E4 /* Kingfisher.framework */; };
 		723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */; };
-=======
 		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
->>>>>>> master
 		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
 		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
 		7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */; };
@@ -39,12 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		723C2C1D21209B7A001B27E4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSwansonViewController.swift; sourceTree = "<group>"; };
-=======
-		723C2C222121F42D001B27E4 /* SwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwansonViewController.swift; sourceTree = "<group>"; };
->>>>>>> master
 		72789362214B340200D46E1C /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		72789367214B356500D46E1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSingleSwansonQuoteAction.swift; sourceTree = "<group>"; };
