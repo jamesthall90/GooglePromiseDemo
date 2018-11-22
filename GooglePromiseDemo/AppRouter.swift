@@ -11,7 +11,8 @@ import UIKit
 import ReSwift
 
 enum RoutingDestination: String {
-    case swanson = "SwansonViewController"
+    case randomSwansonView = "SingleSwansonViewController"
+    case mainMenu = "MainMenuViewController"
 }
 
 final class AppRouter {

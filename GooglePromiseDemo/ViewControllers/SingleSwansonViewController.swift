@@ -9,7 +9,7 @@
 import UIKit
 import ReSwift
 
-class SwansonViewController: UIViewController {
+class SingleSwansonViewController: UIViewController {
 
     @IBOutlet weak var swanSon: UIButton?
     @IBOutlet weak var quoteTextView: UITextView?
@@ -49,7 +49,7 @@ class SwansonViewController: UIViewController {
 }
 
 // MARK: - StoreSubscriber
-extension SwansonViewController: StoreSubscriber {
+extension SingleSwansonViewController: StoreSubscriber {
     func newState(state: SwansonState) {
         
         self.quoteTextView?.text = "\"\(state.quoteText ?? "")\""

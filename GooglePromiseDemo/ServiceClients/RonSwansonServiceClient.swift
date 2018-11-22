@@ -13,20 +13,22 @@ import Kingfisher
 
 class RonSwansonServiceClient {
     
-    static var singleSwansonQuoteUrl = "http://ron-swanson-quotes.herokuapp.com/v2/quotes"
+    static var swansonQuoteUrl = "http://ron-swanson-quotes.herokuapp.com/v2/quotes/"
     
     /// Array of Ron Swanson image urls
     static var swansonImages = [#imageLiteral(resourceName: "ron-swanson-1"), #imageLiteral(resourceName: "ron-swanson-2"), #imageLiteral(resourceName: "ron-swanson-3"), #imageLiteral(resourceName: "ron-swanson-4"), #imageLiteral(resourceName: "ron-swanson-5")]
     
+    // Retrieves a single Ron Swanson Quote
     static func getSingleSwasonQuote() -> Promise<String> {
         
         /// Promises use the main dispatch queue by default
-        return Promise () { fulfill, reject in
+        return Promise() { fulfill, reject in
             
-            let request = self.createUrlRequest(url: self.singleSwansonQuoteUrl)
+            let request = self.createUrlRequest(url: self.swansonQuoteUrl, queryParm: nil)
             
             URLSession.shared.dataTask(with: request) {(data, response, error) in
                 
+                // If an error exists, reject the promise
                 guard error == nil else {
                     reject(error!)
                     return
@@ -35,17 +37,68 @@ class RonSwansonServiceClient {
                 guard let data = data else { return }
                 
                 do {
+                    // Deserialize the quote, which is returned from the API as an array
                     let quoteResponse = try JSONDecoder().decode([String].self, from: data)
+                    
+                    // Fulfill the promise just the first array element,
+                    // as there is only one quote in the array
                     fulfill(quoteResponse[0])
+                    
                 } catch let error {
+                    // If an error exists, reject the promise
+                    reject(error)
+                }
+            }.resume()
+        }
+    }
+    
+    //Retrieves a collection of Ron Swanson quotes, whose count is specified by the input parameter
+    static func getMultipleQuotes(retrieveCount: Int) -> Promise<[String]>{
+        
+        return Promise() { fulfill, reject in
+            
+            let request = createUrlRequest(url: self.swansonQuoteUrl, queryParm: "\(retrieveCount)")
+            
+            URLSession.shared.dataTask(with: request) { (data, response, error) in
+                
+                // If an error exists, reject the promise
+                guard error == nil else {
+                    reject(error!)
+                    return
+                }
+                
+                guard let data = data else { return }
+                
+                do {
+                    // Deserialize the quote collection
+                    let quoteCollection = try JSONDecoder().decode([String].self, from: data)
+                    
+                    // Fulfill the promise with the quote collection
+                    fulfill(quoteCollection)
+                    
+                } catch let error {
+                    // If an error exists, reject the promise
                     reject(error)
                 }
             }.resume()
         }
     }
 
-    static func createUrlRequest(url: String?) -> URLRequest {
-        var request = URLRequest(url: URL(string: url ?? "")!)
+    // VERY simple UrlRequest generator - does not handle for most cases
+    static func createUrlRequest(url: String?, queryParm: String?) -> URLRequest {
+        
+        var request: URLRequest
+        
+        if let url = url {
+            
+            if let queryParm = queryParm {
+                
+                request = URLRequest(url: URL(string: "\(url)\(queryParm)")!)
+                
+            } else { request = URLRequest(url: URL(string: url)!) }
+            
+        } else { return URLRequest(url: URL(string: "")!) }
+        
         request.httpMethod = "GET"
         request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
         return request

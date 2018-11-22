@@ -1,19 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iho-gE-Gib">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Swanson View Controller-->
+        <!--Main Menu View Controller-->
+        <scene sceneID="gLB-OV-Mtu">
+            <objects>
+                <viewController storyboardIdentifier="MainMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iho-gE-Gib" customClass="MainMenuViewController" customModule="GooglePromiseDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLf-pn-onU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="119" translatesAutoresizingMaskIntoConstraints="NO" id="KM0-Ny-WKD">
+                                <rect key="frame" x="151" y="317" width="86" height="179"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3c-Zc-3vV">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="30"/>
+                                        <state key="normal" title="Get Random"/>
+                                        <connections>
+                                            <action selector="openRandomQuoteView:" destination="iho-gE-Gib" eventType="touchUpInside" id="vHP-N4-d8N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GK0-BE-81L">
+                                        <rect key="frame" x="0.0" y="149" width="86" height="30"/>
+                                        <state key="normal" title="Quote List"/>
+                                        <connections>
+                                            <action selector="openQuoteListView:" destination="iho-gE-Gib" eventType="touchUpInside" id="AP6-kb-dyb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8YL-D2-597" firstAttribute="bottom" secondItem="KM0-Ny-WKD" secondAttribute="bottom" constant="282" id="AOX-fq-HtF"/>
+                            <constraint firstItem="8YL-D2-597" firstAttribute="trailing" secondItem="KM0-Ny-WKD" secondAttribute="trailing" constant="138" id="Jbz-kc-dza"/>
+                            <constraint firstItem="KM0-Ny-WKD" firstAttribute="top" secondItem="8YL-D2-597" secondAttribute="top" constant="273" id="kMB-rK-NwH"/>
+                            <constraint firstItem="KM0-Ny-WKD" firstAttribute="leading" secondItem="8YL-D2-597" secondAttribute="leading" constant="151" id="ont-tT-6Q6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8YL-D2-597"/>
+                    </view>
+                    <connections>
+                        <outlet property="getRandomButton" destination="C3c-Zc-3vV" id="Rg3-Vc-gxC"/>
+                        <outlet property="quoteListButton" destination="GK0-BE-81L" id="n3q-4W-45F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcI-WB-8De" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2607" y="-208"/>
+        </scene>
+        <!--Single Swanson View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SwansonViewController" id="BYZ-38-t0r" customClass="SwansonViewController" customModule="GooglePromiseDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SingleSwansonViewController" id="BYZ-38-t0r" customClass="SingleSwansonViewController" customModule="GooglePromiseDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,6 +107,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1652" y="-208"/>
+        </scene>
+        <!--Quote List View Controller-->
+        <scene sceneID="i7a-BU-RyE">
+            <objects>
+                <viewController storyboardIdentifier="QuoteListViewController" id="pXZ-Zz-IPr" customClass="QuoteListViewController" customModule="GooglePromiseDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XMF-SW-kzC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xHy-ga-xSG">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xHy-ga-xSG" firstAttribute="top" secondItem="sHl-ZJ-1t6" secondAttribute="top" id="Kdr-v2-V1f"/>
+                            <constraint firstItem="sHl-ZJ-1t6" firstAttribute="bottom" secondItem="xHy-ga-xSG" secondAttribute="bottom" id="q7H-8z-L1e"/>
+                            <constraint firstItem="sHl-ZJ-1t6" firstAttribute="trailing" secondItem="xHy-ga-xSG" secondAttribute="trailing" id="qJZ-NP-L80"/>
+                            <constraint firstItem="xHy-ga-xSG" firstAttribute="leading" secondItem="sHl-ZJ-1t6" secondAttribute="leading" id="s0w-84-CJ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sHl-ZJ-1t6"/>
+                    </view>
+                    <connections>
+                        <outlet property="quoteListTableView" destination="xHy-ga-xSG" id="Y3q-YF-5H5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3a-CB-yM4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="-209"/>
         </scene>
     </scenes>
     <resources>

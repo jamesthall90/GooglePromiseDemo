@@ -1,3 +1,4 @@
 github "google/promises"
-github "onevcat/Kingfisher" ~> 4.0
 github "ReSwift/ReSwift"
+github "plangrid/ReactiveLists"
+github "ra1028/DifferenceKit"

@@ -12,7 +12,7 @@ struct RoutingState: StateType {
     
     var navigationState: RoutingDestination
     
-    init(navigationState: RoutingDestination = .swanson) {
+    init(navigationState: RoutingDestination = .mainMenu) {
         self.navigationState = navigationState
     }
 }
