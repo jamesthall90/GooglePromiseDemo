@@ -11,12 +11,18 @@ import UIKit
 
 func swansonReducer(action: Action, state: SwansonState?) -> SwansonState {
     
-    var state = state ?? SwansonState(quoteText: "Never half-ass two things. Whole-ass one thing.", swansonImage: UIImage(named: "ron-swanson-1")!)
+    var state = state ?? SwansonState(
+        quoteText: "Never half-ass two things. Whole-ass one thing.",
+        swansonImage: UIImage(named: "ron-swanson-1")!
+    )
     
     switch(action) {
         
     case let action as GetSingleSwansonQuoteAction:
-            state = setSingleQuoteAndImage(action: action, state: state)
+        state = setSingleQuoteAndImage(
+            action: action,
+            state: state
+        )
     default:
         break
     }

@@ -192,7 +192,7 @@ extension UIImage {
                                              .swanson8,
                                              .swanson9]
         
-        let randomIndex = Int(arc4random()) % swansonImages.count
+        let randomIndex = Int.random(in: 0 ..< swansonImages.count)
         
         return swansonImages[randomIndex]
     }
