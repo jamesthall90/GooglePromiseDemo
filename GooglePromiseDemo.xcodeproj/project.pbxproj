@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */; };
-		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
 		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
 		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
 		7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */; };
@@ -284,14 +283,13 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Promises.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBLPromises.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
