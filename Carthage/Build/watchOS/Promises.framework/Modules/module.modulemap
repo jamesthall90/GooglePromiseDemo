@@ -1,4 +1,0 @@
-framework module Promises {
-    header "Promises-Swift.h"
-    requires objc
-}

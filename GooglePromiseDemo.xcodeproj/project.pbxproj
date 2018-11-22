@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		723C2C1E21209B7A001B27E4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C2C1D21209B7A001B27E4 /* Kingfisher.framework */; };
-		723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SwansonViewController.swift */; };
+		723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */; };
 		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
 		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
 		7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */; };
@@ -19,6 +19,9 @@
 		72789374214B423C00D46E1C /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789373214B423C00D46E1C /* RoutingReducer.swift */; };
 		72789376214B426200D46E1C /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789375214B426200D46E1C /* RoutingAction.swift */; };
 		72789378214B42B800D46E1C /* SwansonReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789377214B42B800D46E1C /* SwansonReducer.swift */; };
+		729F2D9F215C463A00851B26 /* QuoteListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F2D9D215C463A00851B26 /* QuoteListTableViewCell.swift */; };
+		729F2DA0215C463A00851B26 /* QuoteListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729F2D9E215C463A00851B26 /* QuoteListTableViewCell.xib */; };
+		729F2DA3217EAB5E00851B26 /* QuoteListTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F2DA2217EAB5E00851B26 /* QuoteListTableViewModel.swift */; };
 		72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DDF211E544900DB559E /* FBLPromises.framework */; };
 		72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DE1211E544E00DB559E /* Promises.framework */; };
 		72A00DE5211E592100DB559E /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 72A00DE4211E592100DB559E /* Utilities */; };
@@ -27,11 +30,13 @@
 		72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA507211A76A300340AA2 /* Assets.xcassets */; };
 		72CEA50B211A76A300340AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA509211A76A300340AA2 /* LaunchScreen.storyboard */; };
 		72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */; };
+		72EA0BC7215BB02600A69617 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA0BC6215BB02600A69617 /* MainMenuViewController.swift */; };
+		72EA0BC9215BB9EC00A69617 /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA0BC8215BB9EC00A69617 /* QuoteListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		723C2C1D21209B7A001B27E4 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
-		723C2C222121F42D001B27E4 /* SwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwansonViewController.swift; sourceTree = "<group>"; };
+		723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSwansonViewController.swift; sourceTree = "<group>"; };
 		72789362214B340200D46E1C /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		72789367214B356500D46E1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSingleSwansonQuoteAction.swift; sourceTree = "<group>"; };
@@ -42,6 +47,9 @@
 		72789373214B423C00D46E1C /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
 		72789375214B426200D46E1C /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
 		72789377214B42B800D46E1C /* SwansonReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwansonReducer.swift; sourceTree = "<group>"; };
+		729F2D9D215C463A00851B26 /* QuoteListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListTableViewCell.swift; sourceTree = "<group>"; };
+		729F2D9E215C463A00851B26 /* QuoteListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuoteListTableViewCell.xib; sourceTree = "<group>"; };
+		729F2DA2217EAB5E00851B26 /* QuoteListTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListTableViewModel.swift; sourceTree = "<group>"; };
 		72A00DDF211E544900DB559E /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
 		72A00DE1211E544E00DB559E /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
 		72A00DE4211E592100DB559E /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
@@ -52,6 +60,8 @@
 		72CEA50A211A76A300340AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CEA50C211A76A300340AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72CEA512211A76E600340AA2 /* RonSwansonServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RonSwansonServiceClient.swift; sourceTree = "<group>"; };
+		72EA0BC6215BB02600A69617 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		72EA0BC8215BB9EC00A69617 /* QuoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +91,9 @@
 		723C2C1F2121F32C001B27E4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				723C2C222121F42D001B27E4 /* SwansonViewController.swift */,
+				723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */,
+				72EA0BC6215BB02600A69617 /* MainMenuViewController.swift */,
+				72EA0BC8215BB9EC00A69617 /* QuoteListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -120,6 +132,24 @@
 			children = (
 			);
 			path = Middleware;
+			sourceTree = "<group>";
+		};
+		729F2D9C215C461300851B26 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				729F2DA1215C47CE00851B26 /* QuoteListTableViewCell */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		729F2DA1215C47CE00851B26 /* QuoteListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				729F2D9D215C463A00851B26 /* QuoteListTableViewCell.swift */,
+				729F2D9E215C463A00851B26 /* QuoteListTableViewCell.xib */,
+				729F2DA2217EAB5E00851B26 /* QuoteListTableViewModel.swift */,
+			);
+			path = QuoteListTableViewCell;
 			sourceTree = "<group>";
 		};
 		72A00DDE211E544900DB559E /* Frameworks */ = {
@@ -161,6 +191,7 @@
 		72CEA4FF211A76A200340AA2 /* GooglePromiseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				729F2D9C215C461300851B26 /* CustomViews */,
 				7278937C2150883700D46E1C /* Middleware */,
 				72789366214B34EC00D46E1C /* State */,
 				72789365214B34A100D46E1C /* Actions */,
@@ -210,6 +241,7 @@
 				TargetAttributes = {
 					72CEA4FC211A76A200340AA2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -238,6 +270,7 @@
 			files = (
 				72CEA50B211A76A300340AA2 /* LaunchScreen.storyboard in Resources */,
 				72A00DE5211E592100DB559E /* Utilities in Resources */,
+				729F2DA0215C463A00851B26 /* QuoteListTableViewCell.xib in Resources */,
 				72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */,
 				72CEA506211A76A200340AA2 /* Main.storyboard in Resources */,
 			);
@@ -273,13 +306,17 @@
 				72789376214B426200D46E1C /* RoutingAction.swift in Sources */,
 				7278936C214B387200D46E1C /* AppReducer.swift in Sources */,
 				72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */,
-				723C2C232121F42D001B27E4 /* SwansonViewController.swift in Sources */,
+				72EA0BC9215BB9EC00A69617 /* QuoteListViewController.swift in Sources */,
+				723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */,
 				72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */,
+				729F2DA3217EAB5E00851B26 /* QuoteListTableViewModel.swift in Sources */,
 				7278936E214B3B9E00D46E1C /* AppRouter.swift in Sources */,
 				72789368214B356500D46E1C /* AppState.swift in Sources */,
 				72789372214B3D7100D46E1C /* SwansonState.swift in Sources */,
 				72789370214B3C5A00D46E1C /* RoutingState.swift in Sources */,
+				72EA0BC7215BB02600A69617 /* MainMenuViewController.swift in Sources */,
 				7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */,
+				729F2D9F215C463A00851B26 /* QuoteListTableViewCell.swift in Sources */,
 				72789378214B42B800D46E1C /* SwansonReducer.swift in Sources */,
 				72789374214B423C00D46E1C /* RoutingReducer.swift in Sources */,
 			);
@@ -438,7 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JTH.GooglePromiseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -460,7 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JTH.GooglePromiseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
