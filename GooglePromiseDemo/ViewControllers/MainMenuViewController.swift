@@ -15,7 +15,6 @@ class MainMenuViewController: UIViewController {
     @IBOutlet weak var getRandomButton: UIButton!
     @IBOutlet weak var quoteListButton: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,13 +41,17 @@ class MainMenuViewController: UIViewController {
     
     func formatButtons() {
         
-        // Add shadows to the buttons
+        // Add drop shadows to the buttons
         getRandomButton.addShadow()
         quoteListButton.addShadow()
     }
     
     @IBAction func openRandomQuoteView(_ sender: Any) {
-        store.dispatch(RoutingAction(destination: .randomSwansonView))
+        store.dispatch(
+            RoutingAction(
+                destination: .randomSwansonView
+            )
+        )
     }
     
     @IBAction func openQuoteListView(_ sender: Any) {

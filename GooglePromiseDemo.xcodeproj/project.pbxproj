@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */; };
+		726F3C9A21AA36D100F0330C /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3C9821AA36D100F0330C /* UIImage+Extensions.swift */; };
+		726F3C9B21AA36D100F0330C /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3C9921AA36D100F0330C /* UIButton+Extensions.swift */; };
+		726F3C9D21AA375900F0330C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3C9C21AA375900F0330C /* UIView+Extensions.swift */; };
+		726F3C9F21AA380600F0330C /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3C9E21AA380600F0330C /* Optional+Extensions.swift */; };
+		726F3CA221AA393000F0330C /* Url+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3CA121AA393000F0330C /* Url+Errors.swift */; };
+		726F3CA421AA422400F0330C /* UIImage+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F3CA321AA422400F0330C /* UIImage+Errors.swift */; };
 		72789363214B340200D46E1C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72789362214B340200D46E1C /* ReSwift.framework */; };
 		72789368214B356500D46E1C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789367214B356500D46E1C /* AppState.swift */; };
 		7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */; };
@@ -23,7 +29,6 @@
 		729F2DA3217EAB5E00851B26 /* QuoteListTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F2DA2217EAB5E00851B26 /* QuoteListTableViewModel.swift */; };
 		72A00DE0211E544900DB559E /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DDF211E544900DB559E /* FBLPromises.framework */; };
 		72A00DE2211E544E00DB559E /* Promises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A00DE1211E544E00DB559E /* Promises.framework */; };
-		72A00DE5211E592100DB559E /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 72A00DE4211E592100DB559E /* Utilities */; };
 		72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEA500211A76A200340AA2 /* AppDelegate.swift */; };
 		72CEA506211A76A200340AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA504211A76A200340AA2 /* Main.storyboard */; };
 		72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CEA507211A76A300340AA2 /* Assets.xcassets */; };
@@ -35,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		723C2C222121F42D001B27E4 /* SingleSwansonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSwansonViewController.swift; sourceTree = "<group>"; };
+		726F3C9821AA36D100F0330C /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		726F3C9921AA36D100F0330C /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		726F3C9C21AA375900F0330C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		726F3C9E21AA380600F0330C /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		726F3CA121AA393000F0330C /* Url+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Errors.swift"; sourceTree = "<group>"; };
+		726F3CA321AA422400F0330C /* UIImage+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Errors.swift"; sourceTree = "<group>"; };
 		72789362214B340200D46E1C /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		72789367214B356500D46E1C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		72789369214B361900D46E1C /* GetSingleSwansonQuoteAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSingleSwansonQuoteAction.swift; sourceTree = "<group>"; };
@@ -50,7 +61,6 @@
 		729F2DA2217EAB5E00851B26 /* QuoteListTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListTableViewModel.swift; sourceTree = "<group>"; };
 		72A00DDF211E544900DB559E /* FBLPromises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBLPromises.framework; path = Carthage/Build/iOS/FBLPromises.framework; sourceTree = "<group>"; };
 		72A00DE1211E544E00DB559E /* Promises.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Promises.framework; path = Carthage/Build/iOS/Promises.framework; sourceTree = "<group>"; };
-		72A00DE4211E592100DB559E /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
 		72CEA4FD211A76A200340AA2 /* GooglePromiseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePromiseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CEA500211A76A200340AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72CEA505211A76A200340AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +103,43 @@
 				72EA0BC8215BB9EC00A69617 /* QuoteListViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		726F3C9521AA36A800F0330C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				726F3C9621AA36BB00F0330C /* Extensions */,
+			);
+			name = Utilities;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		726F3C9621AA36BB00F0330C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				726F3C9721AA36C500F0330C /* UIKit */,
+				726F3C9E21AA380600F0330C /* Optional+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		726F3C9721AA36C500F0330C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				726F3C9921AA36D100F0330C /* UIButton+Extensions.swift */,
+				726F3C9821AA36D100F0330C /* UIImage+Extensions.swift */,
+				726F3C9C21AA375900F0330C /* UIView+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		726F3CA021AA391500F0330C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				726F3CA121AA393000F0330C /* Url+Errors.swift */,
+				726F3CA321AA422400F0330C /* UIImage+Errors.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		72789364214B349B00D46E1C /* Reducers */ = {
@@ -187,6 +234,8 @@
 		72CEA4FF211A76A200340AA2 /* GooglePromiseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				726F3CA021AA391500F0330C /* Errors */,
+				726F3C9521AA36A800F0330C /* Utilities */,
 				729F2D9C215C461300851B26 /* CustomViews */,
 				7278937C2150883700D46E1C /* Middleware */,
 				72789366214B34EC00D46E1C /* State */,
@@ -199,7 +248,6 @@
 				7278936D214B3B9E00D46E1C /* AppRouter.swift */,
 				72CEA500211A76A200340AA2 /* AppDelegate.swift */,
 				72CEA50C211A76A300340AA2 /* Info.plist */,
-				72A00DE4211E592100DB559E /* Utilities */,
 			);
 			path = GooglePromiseDemo;
 			sourceTree = "<group>";
@@ -265,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CEA50B211A76A300340AA2 /* LaunchScreen.storyboard in Resources */,
-				72A00DE5211E592100DB559E /* Utilities in Resources */,
 				729F2DA0215C463A00851B26 /* QuoteListTableViewCell.xib in Resources */,
 				72CEA508211A76A300340AA2 /* Assets.xcassets in Resources */,
 				72CEA506211A76A200340AA2 /* Main.storyboard in Resources */,
@@ -299,9 +346,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				72789376214B426200D46E1C /* RoutingAction.swift in Sources */,
+				726F3C9F21AA380600F0330C /* Optional+Extensions.swift in Sources */,
+				726F3CA221AA393000F0330C /* Url+Errors.swift in Sources */,
 				7278936C214B387200D46E1C /* AppReducer.swift in Sources */,
 				72CEA513211A76E600340AA2 /* RonSwansonServiceClient.swift in Sources */,
 				72EA0BC9215BB9EC00A69617 /* QuoteListViewController.swift in Sources */,
+				726F3CA421AA422400F0330C /* UIImage+Errors.swift in Sources */,
 				723C2C232121F42D001B27E4 /* SingleSwansonViewController.swift in Sources */,
 				72CEA501211A76A200340AA2 /* AppDelegate.swift in Sources */,
 				729F2DA3217EAB5E00851B26 /* QuoteListTableViewModel.swift in Sources */,
@@ -310,10 +360,13 @@
 				72789372214B3D7100D46E1C /* SwansonState.swift in Sources */,
 				72789370214B3C5A00D46E1C /* RoutingState.swift in Sources */,
 				72EA0BC7215BB02600A69617 /* MainMenuViewController.swift in Sources */,
+				726F3C9D21AA375900F0330C /* UIView+Extensions.swift in Sources */,
 				7278936A214B361900D46E1C /* GetSingleSwansonQuoteAction.swift in Sources */,
 				729F2D9F215C463A00851B26 /* QuoteListTableViewCell.swift in Sources */,
 				72789378214B42B800D46E1C /* SwansonReducer.swift in Sources */,
+				726F3C9B21AA36D100F0330C /* UIButton+Extensions.swift in Sources */,
 				72789374214B423C00D46E1C /* RoutingReducer.swift in Sources */,
+				726F3C9A21AA36D100F0330C /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

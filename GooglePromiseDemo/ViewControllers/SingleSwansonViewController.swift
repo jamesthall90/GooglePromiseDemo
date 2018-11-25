@@ -54,7 +54,9 @@ extension SingleSwansonViewController: StoreSubscriber {
         
         self.quoteTextView?.text = "\"\(state.quoteText ?? "")\""
         
-        self.swanSon?.setSwansonImageWithTransition(swansonImage: state.swansonImage)
+        self.swanSon?.setSwansonImageWithTransition(
+            swansonImage: state.swansonImage
+        )
     }
 }
 
