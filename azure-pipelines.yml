@@ -8,6 +8,11 @@ trigger:
 
 pool:
   vmImage: 'macOS-10.13'
+  
+variables:
+  scheme: 'GooglePromiseDemo'
+  sdk: 'iphoneos'
+  configuration: 'Release'
 
 steps:
 - script: /usr/local/bin/carthage update --platform ios
@@ -16,7 +21,7 @@ steps:
   inputs:
     actions: 'build'
     scheme: '$(scheme)'
-    sdk: 'iphoneos'
-    configuration: 'Release'
+    sdk: '$sdk'
+    configuration: '$(configuration)'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
