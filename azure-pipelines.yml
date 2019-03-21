@@ -10,6 +10,8 @@ pool:
   vmImage: 'macOS-10.13'
 
 steps:
+- script: /usr/local/bin/carthage update --platform ios
+  displayName: 'Carthage Update'
 - task: Xcode@5
   inputs:
     actions: 'build'
