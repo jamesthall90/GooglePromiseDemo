@@ -24,4 +24,5 @@ steps:
     sdk: '$(sdk)'
     configuration: '$(configuration)'
     xcWorkspacePath: '**/$(scheme).xcodeproj/project.xcworkspace'
-    xcodeVersion: '10.1'
+    xcodeVersion: 'specifyPath'
+    xcodeDeveloperDir: /Applications/Xcode_10.1.app
