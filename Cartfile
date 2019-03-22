@@ -1,2 +1,4 @@
 github "google/promises"
 github "ReSwift/ReSwift"
+github "plangrid/ReactiveLists"
+github "ra1028/DifferenceKit"

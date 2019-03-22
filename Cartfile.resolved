@@ -1,4 +1,4 @@
-github "ReSwift/ReSwift" "4.0.1"
-github "google/promises" "1.2.4"
-github "plangrid/ReactiveLists" "0.3.0"
-github "ra1028/DifferenceKit" "0.8.0"
+github "ReSwift/ReSwift" "4.1.1"
+github "google/promises" "1.2.7"
+github "plangrid/ReactiveLists" "0.4.0"
+github "ra1028/DifferenceKit" "1.0.0"
