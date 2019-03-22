@@ -8,7 +8,6 @@
 
 import UIKit
 import ReSwift
-import ReactiveLists
 
 class QuoteListViewController: UIViewController {
 
