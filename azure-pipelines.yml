@@ -23,5 +23,5 @@ steps:
     scheme: '$(scheme)'
     sdk: '$(sdk)'
     configuration: '$(configuration)'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    xcWorkspacePath: '**/$(scheme).xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
